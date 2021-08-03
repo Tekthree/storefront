@@ -43,6 +43,6 @@
 - Show a list of products associated with the category
 
 ## UML
-![UML](./UML-phase1.png)
+![UML](./UML1.png)
 
 ---
