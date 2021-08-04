@@ -63,4 +63,5 @@
 - Create a new Cart component to show the items in the user’s cart
 
 ## UML
+
 ![UML](./UML2.png)
