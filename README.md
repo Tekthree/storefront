@@ -6,7 +6,8 @@
 
 ## Deployment and test
   * [test report]()
-  * [deployment lab36]()
+  * [deployment lab36](https://codesandbox.io/s/long-resonance-wtuuk)
+  * [deployment lab37](https://codesandbox.io/s/wonderful-nobel-lst0w)
 
 
 
@@ -62,6 +63,5 @@
 - Create a new Cart component to show the items in the user’s cart
 
 ## UML
-![UML](./UML1.png)
 
-
+![UML](./UML2.png)
