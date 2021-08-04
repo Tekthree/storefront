@@ -46,3 +46,22 @@
 ![UML](./UML1.png)
 
 ---
+
+### Phase 2
+- We will be adding the “Add to Cart” feature to our application, which will allow our users to not only browse items in the store, but also select them and have them persist in their “shopping cart” for later purchase.
+
+### User Stories
+- As a user, I want to choose from products in the list and add them to my shopping cart
+- As a user, I want to see the products that I’ve added to my shopping cart so that
+- As a user, I want to change the quantity of items I intend to purchase in my shopping cart
+- As a user, I want to be able to remove an item from my shopping cart
+
+### Technical Requirements
+- Continue to use Material UI Components for layout and styling
+- Add a “Cart” indicator to the header, like this: Cart (0)
+- Create a new Cart component to show the items in the user’s cart
+
+## UML
+![UML](./UML1.png)
+
+
