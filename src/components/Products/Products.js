@@ -1,5 +1,7 @@
 import { Typography } from "@material-ui/core";
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { addToCart } from "../../store/cart";
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -10,6 +12,13 @@ import './products.scss';
 import image from '../../assets/image.jpeg'
 
 export default function Products() {
+  const product = useSelector(state => state.products)
+  const dispatch = useDispatch();
+
+  const itemClicked = (item) =>{
+    dispatch(addToCart(item));
+  }
+
   return (
     <div>
       <Typography variant="h1">
