@@ -17,4 +17,4 @@ let reducers = combineReducers({
 
 let middlewares = applyMiddleware(thunk);
 
-export default createStore(re)
+export default createStore(reducers, composeWithDevTools(middlewares))
