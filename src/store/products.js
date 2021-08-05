@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const initialState = [
   {
     description: "poops everywhre",
