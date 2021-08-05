@@ -65,3 +65,19 @@
 ## UML
 
 ![UML](./UML2.png)
+
+### Phase 3
+- We will be connecting our Virtual Store to a live API so that our data is persistent and able to be separately managed.
+
+### User Stories
+- As a user, I want to interact with live inventory so that I have confidence that the displayed products are in stock
+- As a user, I want to know to that when I add an item to my cart, that it is removed from inventory so that no other users can purchase it
+### Technical Requirements
+- Continue to use Material UI Components for layout and styling
+- Load the category and product list from a remote API on page load.
+- Update the product quantity in stock when adding items to (or removing from) the cart
+- Continue to use multiple reducers
+
+## UML
+
+![UML](./UML3.png)
