@@ -8,6 +8,7 @@
   * [test report]()
   * [deployment lab36](https://codesandbox.io/s/long-resonance-wtuuk)
   * [deployment lab37](https://codesandbox.io/s/wonderful-nobel-lst0w)
+  * [deployment lab38](https://codesandbox.io/s/stoic-wildflower-orzi3)
 
 
 
@@ -81,3 +82,22 @@
 ## UML
 
 ![UML](./UML3.png)
+
+### Phase 4
+- Complete work on the Virtual Store by adding detail pages for individual products as well as the the cart checkout page
+
+### User Stories
+- As a user, I want to see a full detail view of a product so that I can make a more informed choice about purchasing it.
+- As a user, I want to view my full cart and initiate the checkout process so that I can purchase my items and have them delivered
+
+
+### Technical Requirements
+- Add routing to the application
+- Link every product to a page that displays the full product details
+- Link the “Cart” summary in the header to a full shopping cart page with shipping/payment forms
+- Additionally, we will be swapping out our Redux store and replacing it with a store built using Redux Toolkit
+
+## UML
+
+![UML]()
+
